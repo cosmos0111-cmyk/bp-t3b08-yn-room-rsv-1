@@ -1,643 +1,626 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>연남 룸싸롱 예약 | 감각적인 프라이빗 공간</title>
-    <meta name="description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요. 010-6279-0862">
-    <meta name="keywords" content="연남 룸싸롱, 연남 룸싸롱 예약, 연남동 룸싸롱, 연남 가라오케, 연남 술집, 연남 회식, 연남 모임">
-    <meta name="bpaas-design-system" content="organic-stripe">
-    <meta name="bpaas-design-theme" content="kr-organic-stripe">
-    <meta property="og:title" content="연남 룸싸롱 예약 | 감각적인 프라이빗 공간">
-    <meta property="og:description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요. 010-6279-0862">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yeonnam-room-choice.namanavi.com/">
-    <meta property="og:image" content="https://t3b08-yn-room-rsv-1.vercel.app/og-image.jpg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="연남 룸싸롱 예약 | 감각적인 프라이빗 공간">
-    <meta name="twitter:description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요.">
-    <meta name="twitter:image" content="https://t3b08-yn-room-rsv-1.vercel.app/og-image.jpg">
-    <link rel="canonical" href="https://yeonnam-room-choice.namanavi.com/">
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "BarOrPub",
-  "name": "연남 룸싸롱",
-  "description": "연남동 프리미엄 룸싸롱. 감각적인 분위기와 세련된 서비스.",
-  "telephone": "010-6279-0862",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "서울",
-    "addressRegion": "마포구",
-    "addressCountry": "KR"
-  },
-  "url": "https://yeonnam-room-choice.namanavi.com/",
-  "openingHours": "Mo-Su 18:00-06:00",
-  "priceRange": "₩₩₩"
-}</script>
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>연남 룸싸롱 예약 | 감각적인 프라이빗 공간</title>
+ <meta name="description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요.">
+ <meta name="keywords" content="연남 룸싸롱, 연남 룸싸롱 예약, 연남동 룸싸롱, 연남 가라오케, 연남 술집, 연남 회식, 연남 모임">
+ <meta property="og:title" content="연남 룸싸롱 예약 | 감각적인 프라이빗 공간">
+ <meta property="og:description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://yeonnam-room-choice.namanavi.com/">
+ <meta property="og:image" content="https://t3b08-yn-room-rsv-1.vercel.app/og-image.jpg">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="연남 룸싸롱 예약 | 감각적인 프라이빗 공간">
+ <meta name="twitter:description" content="연남 룸싸롱 예약, 감각적인 분위기와 프라이빗한 공간. 24시간 상담 가능. 지금 바로 연락주세요.">
+ <meta name="twitter:image" content="https://t3b08-yn-room-rsv-1.vercel.app/og-image.jpg">
+ <link rel="canonical" href="https://yeonnam-room-choice.namanavi.com/">
+ <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "BarOrPub", "name": "연남 룸싸롱", "description": "연남동 프리미엄 룸싸롱.</script>
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
 
-        body {
-            font-family: system-ui, -apple-system, 'Inter', sans-serif;
-            background-color: #fcf8f2;
-            color: #2e2522;
-            line-height: 1.5;
-            -webkit-font-smoothing: antialiased;
-        }
+ body {
+ font-family: system-ui, -apple-system, 'Inter', sans-serif;
+ background-color: #fcf8f2;
+ color: #2e2522;
+ line-height: 1.5;
+ -webkit-font-smoothing: antialiased;
+ }
 
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 0 48px;
-        }
+ .container {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 0 48px;
+ }
 
-        /* Header & Navigation */
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background-color: #fcf8f2;
-            border-bottom: 1px solid #2e2522;
-        }
+ /* Header & Navigation */
+ header {
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ background-color: #fcf8f2;
+ border-bottom: 1px solid #2e2522;
+ }
 
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 0;
-        }
+ nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px 0;
+ }
 
-        .logo {
-            font-size: 1.25rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            text-transform: uppercase;
-            color: #2e2522;
-            text-decoration: none;
-        }
+ .logo {
+ font-size: 1.25rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ text-transform: uppercase;
+ color: #2e2522;
+ text-decoration: none;
+ }
 
-        .nav-links {
-            display: flex;
-            gap: 32px;
-            list-style: none;
-        }
+ .nav-links {
+ display: flex;
+ gap: 32px;
+ list-style: none;
+ }
 
-        .nav-links a {
-            text-decoration: none;
-            color: #2e2522;
-            font-weight: 500;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            transition: opacity 0.2s ease;
-            border-bottom: 1px solid transparent;
-            padding-bottom: 2px;
-        }
+ .nav-links a {
+ text-decoration: none;
+ color: #2e2522;
+ font-weight: 500;
+ font-size: 0.9rem;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+ transition: opacity 0.2s ease;
+ border-bottom: 1px solid transparent;
+ padding-bottom: 2px;
+ }
 
-        .nav-links a:hover {
-            opacity: 0.6;
-            border-bottom-color: #7f5539;
-        }
+ .nav-links a:hover {
+ opacity: 0.6;
+ border-bottom-color: #7f5539;
+ }
 
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 4px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 4px;
-        }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ gap: 4px;
+ cursor: pointer;
+ background: none;
+ border: none;
+ padding: 4px;
+ }
 
-        .hamburger span {
-            display: block;
-            width: 24px;
-            height: 1.5px;
-            background-color: #2e2522;
-            transition: all 0.3s ease;
-        }
+ .hamburger span {
+ display: block;
+ width: 24px;
+ height: 1.5px;
+ background-color: #2e2522;
+ transition: all 0.3s ease;
+ }
 
-        /* Hero Section */
-        .hero {
-            padding: 80px 0;
-            border-bottom: 1px solid #2e2522;
-        }
+ /* Hero Section */
+ .hero {
+ padding: 80px 0;
+ border-bottom: 1px solid #2e2522;
+ }
 
-        .hero-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-            align-items: center;
-        }
+ .hero-content {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 32px;
+ align-items: center;
+ }
 
-        .hero-text h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            line-height: 1.1;
-            margin-bottom: 16px;
-        }
+ .hero-text h1 {
+ font-size: 3.5rem;
+ font-weight: 700;
+ letter-spacing: -0.03em;
+ line-height: 1.1;
+ margin-bottom: 16px;
+ }
 
-        .hero-text p {
-            font-size: 1.1rem;
-            opacity: 0.8;
-            margin-bottom: 24px;
-            max-width: 480px;
-        }
+ .hero-text p {
+ font-size: 1.1rem;
+ opacity: 0.8;
+ margin-bottom: 24px;
+ max-width: 480px;
+ }
 
-        .hero-visual {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            aspect-ratio: 4/3;
-        }
+ .hero-visual {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 8px;
+ aspect-ratio: 4/3;
+ }
 
-        .hero-visual div {
-            background-color: #2e2522;
-            border: 1px solid #2e2522;
-        }
+ .hero-visual div {
+ background-color: #2e2522;
+ border: 1px solid #2e2522;
+ }
 
-        .hero-visual div:nth-child(1) {
-            background-color: #7f5539;
-        }
-        .hero-visual div:nth-child(4) {
-            background-color: #7f5539;
-        }
+ .hero-visual div:nth-child(1) {
+ background-color: #7f5539;
+ }
+ .hero-visual div:nth-child(4) {
+ background-color: #7f5539;
+ }
 
-        .btn {
-            display: inline-block;
-            background-color: #2e2522;
-            color: #fcf8f2;
-            padding: 12px 32px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            border: 1px solid #2e2522;
-            transition: all 0.2s ease;
-        }
+ .btn {
+ display: inline-block;
+ background-color: #2e2522;
+ color: #fcf8f2;
+ padding: 12px 32px;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 0.9rem;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+ border: 1px solid #2e2522;
+ transition: all 0.2s ease;
+ }
 
-        .btn:hover {
-            background-color: #fcf8f2;
-            color: #2e2522;
-        }
+ .btn:hover {
+ background-color: #fcf8f2;
+ color: #2e2522;
+ }
 
-        .btn-accent {
-            background-color: #7f5539;
-            border-color: #7f5539;
-        }
+ .btn-accent {
+ background-color: #7f5539;
+ border-color: #7f5539;
+ }
 
-        .btn-accent:hover {
-            background-color: #fcf8f2;
-            color: #7f5539;
-        }
+ .btn-accent:hover {
+ background-color: #fcf8f2;
+ color: #7f5539;
+ }
 
-        /* Section */
-        section {
-            padding: 80px 0;
-            border-bottom: 1px solid #2e2522;
-        }
+ /* Section */
+ section {
+ padding: 80px 0;
+ border-bottom: 1px solid #2e2522;
+ }
 
-        section:last-of-type {
-            border-bottom: none;
-        }
+ section:last-of-type {
+ border-bottom: none;
+ }
 
-        .section-title {
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 48px;
-            text-transform: uppercase;
-        }
+ .section-title {
+ font-size: 2rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ margin-bottom: 48px;
+ text-transform: uppercase;
+ }
 
-        /* About Section */
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-        }
+ /* About Section */
+ .about-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 32px;
+ }
 
-        .about-grid p {
-            font-size: 1rem;
-            opacity: 0.8;
-        }
+ .about-grid p {
+ font-size: 1rem;
+ opacity: 0.8;
+ }
 
-        .about-grid .highlight {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #7f5539;
-            border-left: 2px solid #7f5539;
-            padding-left: 16px;
-        }
+ .about-grid .highlight {
+ font-size: 1.2rem;
+ font-weight: 600;
+ color: #7f5539;
+ border-left: 2px solid #7f5539;
+ padding-left: 16px;
+ }
 
-        /* Features Grid */
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
-        }
+ /* Features Grid */
+ .features-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 32px;
+ }
 
-        .feature-card {
-            border: 1px solid #2e2522;
-            padding: 24px;
-            transition: all 0.2s ease;
-        }
+ .feature-card {
+ border: 1px solid #2e2522;
+ padding: 24px;
+ transition: all 0.2s ease;
+ }
 
-        .feature-card:hover {
-            background-color: #2e2522;
-            color: #fcf8f2;
-        }
+ .feature-card:hover {
+ background-color: #2e2522;
+ color: #fcf8f2;
+ }
 
-        .feature-card .emoji {
-            font-size: 2rem;
-            margin-bottom: 16px;
-            display: block;
-        }
+ .feature-card .emoji {
+ font-size: 2rem;
+ margin-bottom: 16px;
+ display: block;
+ }
 
-        .feature-card h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-        }
+ .feature-card h3 {
+ font-size: 1.1rem;
+ font-weight: 600;
+ margin-bottom: 8px;
+ text-transform: uppercase;
+ letter-spacing: 0.02em;
+ }
 
-        .feature-card p {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
+ .feature-card p {
+ font-size: 0.9rem;
+ opacity: 0.8;
+ }
 
-        /* Reviews */
-        .reviews-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
-        }
+ /* Reviews */
+ .reviews-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 32px;
+ }
 
-        .review-card {
-            border: 1px solid #2e2522;
-            padding: 24px;
-        }
+ .review-card {
+ border: 1px solid #2e2522;
+ padding: 24px;
+ }
 
-        .review-card .meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
+ .review-card .meta {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 12px;
+ font-size: 0.85rem;
+ text-transform: uppercase;
+ letter-spacing: 0.03em;
+ }
 
-        .review-card .stars {
-            color: #7f5539;
-            font-size: 1rem;
-        }
+ .review-card .stars {
+ color: #7f5539;
+ font-size: 1rem;
+ }
 
-        .review-card blockquote {
-            font-style: italic;
-            opacity: 0.85;
-            font-size: 0.95rem;
-        }
+ .review-card blockquote {
+ font-style: italic;
+ opacity: 0.85;
+ font-size: 0.95rem;
+ }
 
-        /* CTA Section */
-        .cta-section {
-            text-align: center;
-            padding: 80px 0;
-        }
+ /* CTA Section */
+ .cta-section {
+ text-align: center;
+ padding: 80px 0;
+ }
 
-        .cta-section h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 16px;
-        }
+ .cta-section h2 {
+ font-size: 2.5rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ margin-bottom: 16px;
+ }
 
-        .cta-section p {
-            font-size: 1.1rem;
-            opacity: 0.8;
-            margin-bottom: 32px;
-        }
+ .cta-section p {
+ font-size: 1.1rem;
+ opacity: 0.8;
+ margin-bottom: 32px;
+ }
 
-        .cta-phone {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #7f5539;
-            text-decoration: none;
-            border-bottom: 2px solid #7f5539;
-            padding-bottom: 4px;
-            transition: opacity 0.2s ease;
-        }
+ .cta-phone {
+ font-size: 2rem;
+ font-weight: 700;
+ color: #7f5539;
+ text-decoration: none;
+ border-bottom: 2px solid #7f5539;
+ padding-bottom: 4px;
+ transition: opacity 0.2s ease;
+ }
 
-        .cta-phone:hover {
-            opacity: 0.7;
-        }
+ .cta-phone:hover {
+ opacity: 0.7;
+ }
 
-        /* Footer */
-        footer {
-            border-top: 1px solid #2e2522;
-            padding: 32px 0;
-            text-align: center;
-            font-size: 0.85rem;
-            opacity: 0.6;
-            letter-spacing: 0.03em;
-        }
+ /* Footer */
+ footer {
+ border-top: 1px solid #2e2522;
+ padding: 32px 0;
+ text-align: center;
+ font-size: 0.85rem;
+ opacity: 0.6;
+ letter-spacing: 0.03em;
+ }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 24px;
-            }
+ /* Responsive */
+ @media (max-width: 768px) {
+ .container {
+ padding: 0 24px;
+ }
 
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: #fcf8f2;
-                border-bottom: 1px solid #2e2522;
-                flex-direction: column;
-                padding: 24px;
-                gap: 16px;
-            }
+ .nav-links {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background-color: #fcf8f2;
+ border-bottom: 1px solid #2e2522;
+ flex-direction: column;
+ padding: 24px;
+ gap: 16px;
+ }
 
-            .nav-links.active {
-                display: flex;
-            }
+ .nav-links.active {
+ display: flex;
+ }
 
-            .hamburger {
-                display: flex;
-            }
+ .hamburger {
+ display: flex;
+ }
 
-            .hero-content {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
+ .hero-content {
+ grid-template-columns: 1fr;
+ gap: 32px;
+ }
 
-            .hero-text h1 {
-                font-size: 2.2rem;
-            }
+ .hero-text h1 {
+ font-size: 2.2rem;
+ }
 
-            .hero-visual {
-                aspect-ratio: 16/9;
-            }
+ .hero-visual {
+ aspect-ratio: 16/9;
+ }
 
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
+ .about-grid {
+ grid-template-columns: 1fr;
+ }
 
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
+ .features-grid {
+ grid-template-columns: 1fr;
+ }
 
-            .reviews-grid {
-                grid-template-columns: 1fr;
-            }
+ .reviews-grid {
+ grid-template-columns: 1fr;
+ }
 
-            .cta-section h2 {
-                font-size: 1.8rem;
-            }
+ .cta-section h2 {
+ font-size: 1.8rem;
+ }
 
-            .cta-phone {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ .cta-phone {
+ font-size: 1.5rem;
+ }
+ }
+ </style>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="/" class="logo">연남 룸싸롱</a>
-                <button class="hamburger" aria-label="메뉴 열기" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#features">공간</a></li>
-                    <li><a href="#reviews">후기</a></li>
-                    <li><a href="#contact">예약</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container">
+ <nav>
+ <a href="/" class="logo">연남 룸싸롱</a>
+ <button class="hamburger" aria-label="메뉴 열기" onclick="toggleMenu()">
+ 
+ 
+ 
+ </button>
+ <ul class="nav-links" id="navLinks">
+ <li><a href="#about">About</a></li>
+ <li><a href="#features">공간</a></li>
+ <li><a href="#reviews">후기</a></li>
+ <li><a href="#contact">예약</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>연남에서 가장<br>감각적인 공간</h1>
-                        <p>프라이빗한 룸, 세련된 분위기. 지루한 건 싫어. 진짜를 원한다면 여기로 와.</p>
-                        <a href="tel:010-6279-0862" class="btn btn-accent">지금 예약 010-6279-0862</a>
-                    </div>
-                    <div class="hero-visual">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <main>
+ <section class="hero">
+ <div class="container">
+ <div class="hero-content">
+ <div class="hero-text">
+ <h1>연남에서 가장<br>감각적인 공간</h1>
+ <p>프라이빗한 룸, 세련된 분위기. 지루한 건 싫어. 진짜를 원한다면 여기로 와.</p>
+ 
+ </div>
+ <div class="hero-visual">
+ 
+ 
+ 
+ 
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section id="about">
-            <div class="container">
-                <h2 class="section-title">이곳은 다르다</h2>
-                <div class="about-grid">
-                    <div>
-                        <p class="highlight">연남 룸싸롱은 그냥 술 마시는 곳이 아니다. 분위기, 서비스, 공간. 모든 게 다르게 설계되었다.</p>
-                    </div>
-                    <div>
-                        <p>프라이빗한 룸에서 시작되는 특별한 저녁. 감각적인 조명과 인테리어는 기본. 우리는 당신이 기억하는 '룸싸롱'의 이미지를 완전히 뒤집어놓는다. 지루한 패턴은 없다. 매 순간이 새롭다.</p>
-                        <p style="margin-top: 16px;">연남이라는 지역의 감성을 그대로 담아냈다. 복잡한 건 싫어하는 사람들을 위한, 정제된 공간. 여기서의 시간은 다르게 흘러간다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <section id="about">
+ <div class="container">
+ <h2 class="section-title">이곳은 다르다</h2>
+ <div class="about-grid">
+ <div>
+ <p class="highlight">연남 룸싸롱은 그냥 술 마시는 곳이 아니다. 분위기, 서비스, 공간. 모든 게 다르게 설계되었다.</p>
+ </div>
+ <div>
+ <p>프라이빗한 룸에서 시작되는 특별한 저녁. 감각적인 조명과 인테리어는 기본. 우리는 당신이 기억하는 '룸싸롱'의 이미지를 완전히 뒤집어놓는다. 지루한 패턴은 없다. 매 순간이 새롭다.</p>
+ <p style="margin-top: 16px;">연남이라는 지역의 감성을 그대로 담아냈다. 복잡한 건 싫어하는 사람들을 위한, 정제된 공간. 여기서의 시간은 다르게 흘러간다.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section id="features">
-            <div class="container">
-                <h2 class="section-title">공간의 완성</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <span class="emoji">🎤</span>
-                        <h3>프리미엄 사운드</h3>
-                        <p>최고급 음향 시스템. 목소리 하나하나가 살아난다. 가라오케의 진짜 재미를 느껴봐.</p>
-                    </div>
-                    <div class="feature-card">
-                        <span class="emoji">🥂</span>
-                        <h3>셀렉트 주류</h3>
-                        <p>세계 각지에서 엄선한 위스키, 와인, 칵테일. 평범한 건 없다. 취향을 저격할 한 잔을 찾아줘.</p>
-                    </div>
-                    <div class="feature-card">
-                        <span class="emoji">🛋️</span>
-                        <h3>프라이빗 룸</h3>
-                        <p>완전히 밀폐된 개인 공간. 방해받지 않고, 우리만의 시간을 즐겨. 소음 걱정은 No.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <section id="features">
+ <div class="container">
+ <h2 class="section-title">공간의 완성</h2>
+ <div class="features-grid">
+ <div class="feature-card">
+ <span class="emoji">🎤</span>
+ <h3>프리미엄 사운드</h3>
+ <p>최고급 음향 시스템. 목소리 하나하나가 살아난다. 가라오케의 진짜 재미를 느껴봐.</p>
+ </div>
+ <div class="feature-card">
+ <span class="emoji">🥂</span>
+ <h3>셀렉트 주류</h3>
+ <p>세계 각지에서 엄선한 위스키, 와인, 칵테일. 평범한 건 없다. 취향을 저격할 한 잔을 찾아줘.</p>
+ </div>
+ <div class="feature-card">
+ <span class="emoji">🛋️</span>
+ <h3>프라이빗 룸</h3>
+ <p>완전히 밀폐된 개인 공간. 방해받지 않고, 우리만의 시간을 즐겨. 소음 걱정은 No.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section id="reviews">
-            <div class="container">
-                <h2 class="section-title">진짜 후기</h2>
-                <div class="reviews-grid">
-                    <div class="review-card">
-                        <div class="meta">
-                            <span>연남러버</span>
-                            <span class="stars">★★★★★</span>
-                        </div>
-                        <time datetime="2024-03-15">2024.03.15</time>
-                        <blockquote>"연남에서 이렇게 감각적인 곳은 처음이야. 분위기가 진짜 미쳤다. 다음에도 무조건 올듯."</blockquote>
-                    </div>
-                    <div class="review-card">
-                        <div class="meta">
-                            <span>회식왕김대리</span>
-                            <span class="stars">★★★★★</span>
-                        </div>
-                        <time datetime="2024-04-02">2024.04.02</time>
-                        <blockquote>"회식 장소로 썼는데 다들 난리 났음. 사운드 좋고, 공간도 넓어서 단체로 가기 딱 좋아."</blockquote>
-                    </div>
-                    <div class="review-card">
-                        <div class="meta">
-                            <span>혼술러</span>
-                            <span class="stars">★★★★☆</span>
-                        </div>
-                        <time datetime="2024-05-20">2024.05.20</time>
-                        <blockquote>"혼자 가서 위스키 한잔 했는데, 너무 편안했어. 바텐더가 추천해준 한 잔이 아직도 기억나."</blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
+ <section id="reviews">
+ <div class="container">
+ <h2 class="section-title">진짜 후기</h2>
+ <div class="reviews-grid">
+ <div class="review-card">
+ <div class="meta">
+ <span>연남러버</span>
+ <span class="stars">★★★★★</span>
+ </div>
+ <time datetime="2024-03-15">2024.03.15</time>
+ <blockquote>"연남에서 이렇게 감각적인 곳은 처음이야. 분위기가 진짜 미쳤다. 다음에도 무조건 올듯."</blockquote>
+ </div>
+ <div class="review-card">
+ <div class="meta">
+ <span>회식왕김대리</span>
+ <span class="stars">★★★★★</span>
+ </div>
+ <time datetime="2024-04-02">2024.04.02</time>
+ <blockquote>"회식 장소로 썼는데 다들 난리 났음. 사운드 좋고, 공간도 넓어서 단체로 가기 딱 좋아."</blockquote>
+ </div>
+ <div class="review-card">
+ <div class="meta">
+ <span>혼술러</span>
+ <span class="stars">★★★★☆</span>
+ </div>
+ <time datetime="2024-05-20">2024.05.20</time>
+ <blockquote>"혼자 가서 위스키 한잔 했는데, 너무 편안했어. 바텐더가 추천해준 한 잔이 아직도 기억나."</blockquote>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section id="contact" class="cta-section">
-            <div class="container">
-                <h2>지금 바로 예약하자</h2>
-                <p>24시간 예약 가능. 원하는 시간에 연락해. 기다리지 않아.</p>
-                <a href="tel:010-6279-0862" class="cta-phone">010-6279-0862</a>
-                <p style="margin-top: 24px;">또는 아래 버튼을 눌러 바로 전화 연결</p>
-                <a href="tel:010-6279-0862" class="btn" style="margin-top: 16px;">전화 걸기</a>
-            </div>
-        </section>
-    </main>
+ <section id="contact" class="cta-section">
+ <div class="container">
+ <h2>지금 바로 예약하자</h2>
+ <p>24시간 예약 가능. 원하는 시간에 연락해. 기다리지 않아.</p>
+ 
+ <p style="margin-top: 24px;">또는 아래 버튼을 눌러 바로 전화 연결</p>
+ 
+ </div>
+ </section>
+ </main>
 
-    
+ 
 
 
 <!-- PBN Recent Posts Feed Section -->
 <section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 강남 셔츠룸 상세 정보 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 강남 셔츠룸 상세 정보 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">30 만 원 소품이 만든 꿈의 결말 — 연남 룸싸롱 예약보다 더 깊은 이야기</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜... 그 유니콘 꿈 장면이 처음엔 그냥 임시방편이었어.촬영 현장에서 소품팀장이 급하게 찾은 알리익스프레스 주문물이었다고 알려져 있어. 제작비가 부족해서 고가의 모델을 구하지 못하자, 비슷한 모양의 대용품으로 대신한 거야. 하지만 그 대용물이 관객들의 기억 속</p>
-      </div>
-      <a href="posts/review-002-145bupf.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">테라포밍 마스 두 명이 할 때, 왜 연남 룸싸롱 예약보다 부품 관리가 더 중요해</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"><code>boardgame</code>, <code>terraforming mars</code>, <code>venus expansion:1.3</code>, <code>cafe interior</code>, <code>strategy</code>, <code>2player</code>, <code>lost parts</code>, <code>replacement</code> 테라포밍 마스 베네스 확장이 두 명이 할 때 </p>
-      </div>
-      <a href="posts/t3link-001-1jmpecm.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
+ <div style="max-width:1100px;margin:0 auto">
+ <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+ <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+ 
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-05-24">2026-05-24</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 강남 셔츠룸 상세 정보 리포트</h4>
+ 
+ </div>
+ <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-05-24">2026-05-24</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 강남 셔츠룸 상세 정보 리포트</h4>
+ 
+ </div>
+ <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-05-24">2026-05-24</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h4>
+ 
+ </div>
+ <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-05-24">2026-05-24</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h4>
+ 
+ </div>
+ <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-05-24">2026-05-24</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h4>
+ 
+ </div>
+ <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-06-15">2026-06-15</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">30 만 원 소품이 만든 꿈의 결말 — 연남 룸싸롱 예약보다 더 깊은 이야기</h4>
+ <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜.. 그 유니콘 꿈 장면이 처음엔 그냥 임시방편이었어.촬영 현장에서 소품팀장이 급하게 찾은 알리익스프레스 주문물이었다고 알려져 있어. 제작비가 부족해서 고가의 모델을 구하지 못하자, 비슷한 모양의 대용품으로 대신한 거야. 하지만 그 대용물이 관객들의 기억 속</p>
+ </div>
+ <a href="posts/review-002-145bupf.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+ <div>
+ <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+ <span>⭐ REVIEW</span>
+ <time datetime="2026-06-15">2026-06-15</time>
+ </div>
+ <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">테라포밍 마스 두 명이 할 때, 왜 연남 룸싸롱 예약보다 부품 관리가 더 중요해</h4>
+ <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"><code>boardgame</code><code>terraforming mars</code><code>venus expansion:1.3</code><code>cafe interior</code><code>strategy</code><code>2player</code><code>lost parts</code><code>replacement</code> 테라포밍 마스 베네스 확장이 두 명이 할 때 </p>
+ </div>
+ <a href="posts/t3link-001-1jmpecm.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+ </article>
+ </div>
+ </div>
 </section>
 <footer>
-        <div class="container">
-            <p>&copy; 2025 연남 룸싸롱 예약. All rights reserved. | 연남동 | 010-6279-0862</p>
-        </div>
-    </footer>
+ <div class="container">
+ <p>&copy; 2025 연남 룸싸롱 예약. All rights reserved.</p>
+ </div>
+ </footer>
 
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById('navLinks');
-            nav.classList.toggle('active');
-        }
+ <script>
+ function toggleMenu() {
+ const nav = document.getElementById('navLinks');
+ nav.classList.toggle('active');
+ }
 
-        // Close menu on link click (mobile)
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('navLinks').classList.remove('active');
-            });
-        });
-    </script>
+ // Close menu on link click (mobile)
+ document.querySelectorAll('.nav-links a').forEach(link => {
+ link.addEventListener('click', () => {
+ document.getElementById('navLinks').classList.remove('active');
+ });
+ });
+ </script>
 </body>
 </html>
